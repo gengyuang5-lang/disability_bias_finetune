@@ -44,13 +44,6 @@ ENV/
 *.npy
 *.npz
 
-# Results and outputs (too large)
-apd_results_full/
-apd_results_full_augmented/
-*.jsonl
-test_set.jsonl
-disability_test_set.json
-
 # Logs
 *.log
 logs/
@@ -80,7 +73,7 @@ APD.xie/good_result.ipynb
 checkpoint-*/
 models/
 
-# Large JSON files (data)
+# Large JSON files (old data)
 api_model_disability_results.json
 disability_test_results.json
 finetuned_model_disability_results.json
@@ -88,3 +81,7 @@ test_set.json
 
 # BBQ data (too large)
 BBQ-main/
+
+# Temp files
+*_temp.json
+pipeline_checkpoint.json

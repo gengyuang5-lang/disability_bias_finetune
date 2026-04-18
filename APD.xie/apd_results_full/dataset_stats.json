@@ -1,0 +1,18 @@
+{
+  "total": 1556,
+  "by_context": {
+    "disambig_neg": 389,
+    "disambig_nonneg": 389,
+    "ambig_neg": 389,
+    "ambig_nonneg": 389
+  },
+  "by_subcategory": {
+    "Physical": 432,
+    "MentalIllness": 520
+  },
+  "by_split": {
+    "train": 1086,
+    "val": 230,
+    "test": 240
+  }
+}

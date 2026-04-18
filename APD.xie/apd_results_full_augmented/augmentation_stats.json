@@ -1,0 +1,8 @@
+{
+  "train_original": 1086,
+  "train_augmented": 2172,
+  "val": 230,
+  "test": 240,
+  "total": 2642,
+  "augmentation_factor": 2
+}
