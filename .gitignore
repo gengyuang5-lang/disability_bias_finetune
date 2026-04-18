@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Large data files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Results and outputs (too large)
+apd_results_full/
+apd_results_full_augmented/
+*.jsonl
+test_set.jsonl
+disability_test_set.json
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API Keys and sensitive info - DO NOT COMMIT
+*.key
+.env
+config_local.py
+Pro.Shen.API/
+APD-PromptGenerator/configs/
+APD-PromptGenerator/experiments/exp1_baseline_chinese_llm/config.json
+APD-PromptGenerator/experiments/exp2_prompt_enhanced/config.json
+APD.xie/create_full_dataset.py
+APD.xie/run_apd.py
+APD.xie/run_apd_full.py
+APD.xie/good_result.ipynb
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model checkpoints
+checkpoint-*/
+models/
+
+# Large JSON files (data)
+api_model_disability_results.json
+disability_test_results.json
+finetuned_model_disability_results.json
+test_set.json
+
+# BBQ data (too large)
+BBQ-main/

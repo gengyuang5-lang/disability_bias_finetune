@@ -1,0 +1,25 @@
+{
+  "apd_prompt_sft": {
+    "file_name": "apd_sft_data.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "apd_prompt_dpo": {
+    "file_name": "apd_dpo_data.json",
+    "formatting": "pairwise",
+    "ranking": true,
+    "columns": {
+      "prompt": "prompt",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  }
+}

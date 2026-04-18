@@ -1,0 +1,33 @@
+{
+  "comparison_time": "2026-04-17 23:40:55",
+  "experiment_1": {
+    "name": "exp1_baseline_chinese_llm",
+    "file": "E:\\desktop\\CDS546 Project Topics (AY2025-26)(2)\\tune\\APD-PromptGenerator\\experiments\\exp1_baseline_chinese_llm\\results\\exp1_baseline_chinese_llm\\exp1_baseline_chinese_llm_20260417_190112.json",
+    "results": {
+      "overall_accuracy": 0.96,
+      "bias_score": 0.28331332533013204,
+      "ambig_accuracy": 0.9215686274509803,
+      "disambig_accuracy": 1.0
+    }
+  },
+  "experiment_2": {
+    "name": "exp2_prompt_enhanced",
+    "file": "E:\\desktop\\CDS546 Project Topics (AY2025-26)(2)\\tune\\APD-PromptGenerator\\experiments\\exp2_prompt_enhanced\\results\\exp2_prompt_enhanced\\exp2_prompt_enhanced_20260417_233649.json",
+    "results": {
+      "overall_accuracy": 0.89,
+      "bias_score": 0.1910764305722289,
+      "ambig_accuracy": 1.0,
+      "disambig_accuracy": 0.7755102040816326
+    }
+  },
+  "improvements": {
+    "accuracy": -0.06999999999999995,
+    "bias_reduction": 0.09223689475790314,
+    "ambig_accuracy": 0.07843137254901966,
+    "disambig_accuracy": -0.22448979591836737
+  },
+  "summary": [
+    "偏见分数降低 0.092",
+    "模糊上下文准确率提升 0.078"
+  ]
+}
